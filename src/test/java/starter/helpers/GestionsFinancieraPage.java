@@ -1,6 +1,5 @@
 package starter.helpers;
 
-import com.sun.org.apache.bcel.internal.generic.PUSH;
 import net.serenitybdd.annotations.DefaultUrl;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
