@@ -22,7 +22,7 @@ public class AddValuesDefinitions {
         actor.wasAbleTo(NavigateTo.thePoliticasDePagoPage());
     }
 
-    @When("{actor} adds {10} to Porcetaje Socio and {20} to  Porcentaje Impuestos")
+    @When("{actor} adds {string} to Porcetaje Socio and {string} to  Porcentaje Impuestos")
     public void heAddsToFields(Actor actor, String value1, String value2) {
         actor.attemptsTo(AddValue.addPorcentajeImpuestos(value1));
         actor.attemptsTo(AddValue.addPorcentajeSocio(value2));
