@@ -49,6 +49,7 @@ dependencies {
         testImplementation "org.junit.jupiter:junit-jupiter-engine:${junit_jupiter_engine_version}"
         testImplementation "org.junit.vintage:junit-vintage-engine:${junit_vintage_engine_version}"
         implementation "ch.qos.logback:logback-classic:${logback_classic_version}"
+        implementation "org.seleniumhq.selenium:selenium-chrome-driver:4.15.0"
         testImplementation "org.assertj:assertj-core:${assertj_core_version}"
     }
 }
